@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request
-from gpt4all import GPT4All
+import gpt4all
 
 app = FastAPI()
 
