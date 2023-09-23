@@ -4,7 +4,7 @@ from gpt4all import GPT4All
 app = FastAPI()
 
 # Initialize your GPT-4 model
-model = GPT4All('ggml-vicuna-7b-1.1-q4_2.bin')
+model = GPT4All('orca-mini-13b.ggmlv3.q4_0.bin')
 
 # Update the system and prompt templates for Unity context
 system_template = 'You are the best consulting lawyer India has ever seen, help the user with all of their problems regarding the law'
