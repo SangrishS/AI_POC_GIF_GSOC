@@ -1,3 +1,0 @@
-fastapi
-gpt4all
-uvicorn
